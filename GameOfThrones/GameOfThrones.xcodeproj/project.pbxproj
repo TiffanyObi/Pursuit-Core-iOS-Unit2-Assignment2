@@ -7,8 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3E1A04BF23870C4F00231A77 /* EpisodeDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E1A04BE23870C4F00231A77 /* EpisodeDetailViewController.swift */; };
+		3E6500D523848594002A5CCD /* GameSeasonTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E6500D423848594002A5CCD /* GameSeasonTableViewCell.swift */; };
 		57D0D22A219F70EA00B5753A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57D0D229219F70EA00B5753A /* AppDelegate.swift */; };
-		57D0D22C219F70EA00B5753A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57D0D22B219F70EA00B5753A /* ViewController.swift */; };
+		57D0D22C219F70EA00B5753A /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57D0D22B219F70EA00B5753A /* MainViewController.swift */; };
 		57D0D22F219F70EA00B5753A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 57D0D22D219F70EA00B5753A /* Main.storyboard */; };
 		57D0D231219F70EA00B5753A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 57D0D230219F70EA00B5753A /* Assets.xcassets */; };
 		57D0D234219F70EA00B5753A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 57D0D232219F70EA00B5753A /* LaunchScreen.storyboard */; };
@@ -16,9 +18,11 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3E1A04BE23870C4F00231A77 /* EpisodeDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EpisodeDetailViewController.swift; sourceTree = "<group>"; };
+		3E6500D423848594002A5CCD /* GameSeasonTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameSeasonTableViewCell.swift; sourceTree = "<group>"; };
 		57D0D226219F70EA00B5753A /* GameOfThrones.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GameOfThrones.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		57D0D229219F70EA00B5753A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		57D0D22B219F70EA00B5753A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		57D0D22B219F70EA00B5753A /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		57D0D22E219F70EA00B5753A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		57D0D230219F70EA00B5753A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		57D0D233219F70EA00B5753A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -57,8 +61,10 @@
 			isa = PBXGroup;
 			children = (
 				57D0D229219F70EA00B5753A /* AppDelegate.swift */,
-				57D0D22B219F70EA00B5753A /* ViewController.swift */,
+				57D0D22B219F70EA00B5753A /* MainViewController.swift */,
+				3E6500D423848594002A5CCD /* GameSeasonTableViewCell.swift */,
 				57D0D22D219F70EA00B5753A /* Main.storyboard */,
+				3E1A04BE23870C4F00231A77 /* EpisodeDetailViewController.swift */,
 				57D0D23B219F719C00B5753A /* GOTEpisdoe.swift */,
 				57D0D230219F70EA00B5753A /* Assets.xcassets */,
 				57D0D232219F70EA00B5753A /* LaunchScreen.storyboard */,
@@ -138,8 +144,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3E1A04BF23870C4F00231A77 /* EpisodeDetailViewController.swift in Sources */,
 				57D0D23C219F719C00B5753A /* GOTEpisdoe.swift in Sources */,
-				57D0D22C219F70EA00B5753A /* ViewController.swift in Sources */,
+				57D0D22C219F70EA00B5753A /* MainViewController.swift in Sources */,
+				3E6500D523848594002A5CCD /* GameSeasonTableViewCell.swift in Sources */,
 				57D0D22A219F70EA00B5753A /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
