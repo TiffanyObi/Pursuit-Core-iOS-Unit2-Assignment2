@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15505" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="mrC-iy-War">
-    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <device id="ipad12_9rounded" orientation="landscape" layout="fullscreen" appearance="light"/>
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15509"/>
@@ -13,18 +13,18 @@
             <objects>
                 <viewController id="BYZ-38-t0r" customClass="MainViewController" customModule="GameOfThrones" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <rect key="frame" x="0.0" y="0.0" width="1366" height="1024"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="NW1-bQ-McE">
-                                <rect key="frame" x="0.0" y="88" width="414" height="808"/>
+                                <rect key="frame" x="0.0" y="50" width="1366" height="974"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                                 <prototypes>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="oddSeasons" rowHeight="157" id="xb8-cl-RCA" customClass="GameSeasonTableViewCell" customModule="GameOfThrones" customModuleProvider="target">
-                                        <rect key="frame" x="0.0" y="28" width="414" height="157"/>
+                                        <rect key="frame" x="0.0" y="28" width="1366" height="157"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="xb8-cl-RCA" id="yyT-an-wnx">
-                                            <rect key="frame" x="0.0" y="0.0" width="414" height="157"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="1366" height="157"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="spb-D0-Lbs">
@@ -35,13 +35,13 @@
                                                     </constraints>
                                                 </imageView>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="GOTName" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="g3L-Ix-n3O">
-                                                    <rect key="frame" x="158" y="19" width="244" height="21"/>
+                                                    <rect key="frame" x="158" y="23" width="1201" height="21"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                     <nil key="textColor"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Season and Episode" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4IR-W3-4XZ">
-                                                    <rect key="frame" x="158" y="48" width="244" height="21"/>
+                                                    <rect key="frame" x="158" y="52" width="1201" height="21"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                     <nil key="textColor"/>
                                                     <nil key="highlightedColor"/>
@@ -68,27 +68,27 @@
                                         </connections>
                                     </tableViewCell>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="evenSeasons" rowHeight="176" id="fla-6s-h9X" customClass="GameSeasonTableViewCell" customModule="GameOfThrones" customModuleProvider="target">
-                                        <rect key="frame" x="0.0" y="185" width="414" height="176"/>
+                                        <rect key="frame" x="0.0" y="185" width="1366" height="176"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="fla-6s-h9X" id="WzR-ku-rOQ">
-                                            <rect key="frame" x="0.0" y="0.0" width="414" height="176"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="1366" height="176"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="Sor-zX-eHJ">
-                                                    <rect key="frame" x="264" y="8" width="150" height="160"/>
+                                                    <rect key="frame" x="1216" y="8" width="150" height="160"/>
                                                     <constraints>
                                                         <constraint firstAttribute="width" constant="150" id="DOJ-Yo-qr8"/>
                                                         <constraint firstAttribute="height" constant="130" id="XwP-iR-E3H"/>
                                                     </constraints>
                                                 </imageView>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="GOTName" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Fd1-SL-pTZ">
-                                                    <rect key="frame" x="8" y="8" width="248" height="21"/>
+                                                    <rect key="frame" x="8" y="8" width="1200" height="21"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                     <nil key="textColor"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Season and Episode" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="c1n-hB-PUq">
-                                                    <rect key="frame" x="8" y="37" width="248" height="21"/>
+                                                    <rect key="frame" x="8" y="37" width="1200" height="21"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                     <nil key="textColor"/>
                                                     <nil key="highlightedColor"/>
@@ -140,22 +140,21 @@
             <objects>
                 <viewController id="gcC-hX-ljM" customClass="EpisodeDetailViewController" customModule="GameOfThrones" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Fhv-d9-9UI">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <rect key="frame" x="0.0" y="0.0" width="1366" height="1024"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="eqY-CP-Hij">
-                                <rect key="frame" x="20" y="104" width="374" height="284"/>
+                                <rect key="frame" x="20" y="66" width="1326" height="284"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="284" id="cgQ-4y-HYI"/>
                                     <constraint firstAttribute="width" constant="374" id="fhL-CN-S9c"/>
                                 </constraints>
                             </imageView>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="2pV-l1-lyJ">
-                                <rect key="frame" x="20" y="466.5" width="374" height="244"/>
+                                <rect key="frame" x="20" y="608.5" width="1326" height="244"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="244" id="j4h-Rk-gPG"/>
-                                    <constraint firstAttribute="width" constant="374" id="nCx-BB-iDe"/>
+                                    <constraint firstAttribute="height" constant="244" id="BIf-gl-Uvz"/>
                                 </constraints>
                                 <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</string>
                                 <color key="textColor" systemColor="labelColor" cocoaTouchSystemColor="darkTextColor"/>
@@ -163,7 +162,7 @@
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Episode Summary" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="C5X-0o-eey">
-                                <rect key="frame" x="137.5" y="437.5" width="139" height="21"/>
+                                <rect key="frame" x="613.5" y="423.5" width="139" height="177"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -173,12 +172,13 @@
                         <constraints>
                             <constraint firstItem="C5X-0o-eey" firstAttribute="centerY" secondItem="Fhv-d9-9UI" secondAttribute="centerY" id="Cej-4p-Zgq"/>
                             <constraint firstItem="eqY-CP-Hij" firstAttribute="leading" secondItem="8Bl-8F-Y5G" secondAttribute="leading" constant="20" id="Cte-vK-qdj"/>
-                            <constraint firstItem="2pV-l1-lyJ" firstAttribute="top" secondItem="C5X-0o-eey" secondAttribute="bottom" constant="8" id="K9X-P8-iON"/>
-                            <constraint firstItem="2pV-l1-lyJ" firstAttribute="leading" secondItem="8Bl-8F-Y5G" secondAttribute="leading" constant="20" id="Lrw-KF-qP9"/>
+                            <constraint firstItem="2pV-l1-lyJ" firstAttribute="trailing" secondItem="eqY-CP-Hij" secondAttribute="trailing" id="GgP-sq-p7H"/>
+                            <constraint firstItem="2pV-l1-lyJ" firstAttribute="leading" secondItem="eqY-CP-Hij" secondAttribute="leading" id="IZF-q9-EIj"/>
                             <constraint firstItem="C5X-0o-eey" firstAttribute="centerX" secondItem="Fhv-d9-9UI" secondAttribute="centerX" id="PUe-7Q-7r0"/>
-                            <constraint firstItem="8Bl-8F-Y5G" firstAttribute="trailing" secondItem="2pV-l1-lyJ" secondAttribute="trailing" constant="20" id="Zx0-Gm-2Rk"/>
                             <constraint firstItem="8Bl-8F-Y5G" firstAttribute="trailing" secondItem="eqY-CP-Hij" secondAttribute="trailing" constant="20" id="aZ8-AA-hyR"/>
+                            <constraint firstItem="8Bl-8F-Y5G" firstAttribute="bottom" secondItem="2pV-l1-lyJ" secondAttribute="bottom" constant="151.33333333333326" id="bcD-VR-vTe"/>
                             <constraint firstItem="eqY-CP-Hij" firstAttribute="top" secondItem="8Bl-8F-Y5G" secondAttribute="top" constant="16" id="kAX-HN-rcv"/>
+                            <constraint firstItem="2pV-l1-lyJ" firstAttribute="top" secondItem="C5X-0o-eey" secondAttribute="bottom" constant="8.0000000000000568" id="xrw-jn-JAz"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="8Bl-8F-Y5G"/>
                     </view>
@@ -198,7 +198,7 @@
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="mrC-iy-War" sceneMemberID="viewController">
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="g2s-OR-7z3">
-                        <rect key="frame" x="0.0" y="44" width="414" height="44"/>
+                        <rect key="frame" x="0.0" y="0.0" width="1366" height="50"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
                     <nil name="viewControllers"/>
